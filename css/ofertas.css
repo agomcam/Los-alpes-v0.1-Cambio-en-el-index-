@@ -1,0 +1,93 @@
+/* Fuentes  Importadas */
+/* Para títulos :font-family: 'Ultra', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+/* Fuente general: font-family: 'PT Serif', serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/* Estilos generales */
+a {
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+}
+
+h2 {
+    font-family: 'Ultra', serif;
+}
+
+hr {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    border: none;
+
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de cabecera */
+#header {
+    color: #000000;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px;
+
+}
+
+/* Estilos de botones cabecera */
+.botones {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #434343);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 140px;
+    color: white;
+    transition: all 300ms;
+    margin-left: 40px;
+
+
+}
+
+.botones:hover {
+    box-shadow: 0px 0px 20px rgb(191, 191, 255);
+    cursor: pointer;
+}
+
+.contenido {
+    background-color: #ffffff;
+}
+
+footer{
+    font-size: 12px;
+  }
